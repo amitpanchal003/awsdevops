@@ -25,4 +25,17 @@
 ---
 
 
+### Elastic Compute Cloud
+    Amazon Web service offers EC2 which is a short form of Elastic Compute Cloud
+    (ECC) it is a cloud computing service offered by the Cloud Service Provider AWS. You can deploy your applications in 
+    EC2 servers without any worrying about the underlying infrastructure. You configure the EC2-Instance in a very
+    secure manner by using the VPC, Subnets, and Security groups. You can scale the configuration of the EC2 
+    instance you have configured based on the demand of the application by attaching the autoscaling group 
+    to the EC2 instance. You can scale up and scale down the instance based on the
+    incoming traffic of the application.
+
+The following figure shows the EC2-Instance which is deployed in VPC (Virtual Private Cloud).
+
+![AWS-EC2-Instance-types]<img src="https://github.com/amitpanchal003/awsdevops/assets/50370935/ce8f8951-c02e-476c-a1c9-0a2bb20bbb80"  width="60%" height="30%">
+
 
