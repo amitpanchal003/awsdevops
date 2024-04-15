@@ -38,4 +38,13 @@ The following figure shows the EC2-Instance which is deployed in VPC (Virtual Pr
 
 ![AWS-EC2-Instance-types]<img src="https://github.com/amitpanchal003/awsdevops/assets/50370935/ce8f8951-c02e-476c-a1c9-0a2bb20bbb80"  width="60%" height="30%">
 
-
+### Jenkins installation
+  `sudo apt update `
+  sudo apt install openjdk-11 -y || sudo apt-get install openjdk-11-jdk
+  sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
+  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install jenkins
